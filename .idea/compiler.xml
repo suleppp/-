@@ -7,17 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="item-service" />
         <module name="cart-service" />
+        <module name="trade-service" />
+        <module name="hm-common" />
+        <module name="item-service" />
         <module name="user-service" />
         <module name="hm-service" />
-        <module name="hm-common" />
         <module name="hm-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11">
-      <module name="trade-service" target="11" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -1,46 +1,116 @@
-10:47:09:597  INFO 11680 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.25 on sule with PID 11680 (C:\Users\31641\Desktop\资料\SpringCloud\SpringCloud微服务—资料\day03-01\documents\hmall\item-service\target\classes started by 31641 in C:\Users\31641\Desktop\资料\SpringCloud\SpringCloud微服务—资料\day03-01\documents\hmall)
-10:47:09:607 DEBUG 11680 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-10:47:09:608  INFO 11680 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-10:47:10:608  INFO 11680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-10:47:10:616  INFO 11680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-10:47:10:616  INFO 11680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-10:47:10:706  INFO 11680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-10:47:10:706  INFO 11680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1053 ms
-10:47:11:612  INFO 11680 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-10:47:11:676  INFO 11680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-10:47:11:677  INFO 11680 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-10:47:11:678  INFO 11680 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-10:47:11:695  INFO 11680 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-10:47:11:707  INFO 11680 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 2.444 seconds (JVM running for 3.607)
-10:47:30:382  INFO 11680 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-10:47:30:383  INFO 11680 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-10:47:30:384  INFO 11680 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-10:50:41:776  INFO 22960 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.25 on sule with PID 22960 (C:\Users\31641\Desktop\资料\SpringCloud\SpringCloud微服务—资料\day03-01\documents\hmall\item-service\target\classes started by 31641 in C:\Users\31641\Desktop\资料\SpringCloud\SpringCloud微服务—资料\day03-01\documents\hmall)
-10:50:41:778 DEBUG 22960 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-10:50:41:778  INFO 22960 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
-10:50:42:681  INFO 22960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-10:50:42:688  INFO 22960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-10:50:42:688  INFO 22960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-10:50:42:776  INFO 22960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-10:50:42:776  INFO 22960 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 965 ms
-10:50:43:629  INFO 22960 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-10:50:43:688  INFO 22960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-10:50:43:689  INFO 22960 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-10:50:43:691  INFO 22960 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-10:50:43:711  INFO 22960 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-10:50:43:813  INFO 22960 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 2.367 seconds (JVM running for 3.017)
-10:50:49:414  INFO 22960 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-10:50:49:415  INFO 22960 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-10:50:49:416  INFO 22960 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-10:52:32:184  INFO 22960 --- [http-nio-8081-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-10:52:32:473  INFO 22960 --- [http-nio-8081-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-10:52:32:480 DEBUG 22960 --- [http-nio-8081-exec-9] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item
-10:52:32:498 DEBUG 22960 --- [http-nio-8081-exec-9] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 
-10:52:32:522 DEBUG 22960 --- [http-nio-8081-exec-9] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
-10:52:32:534 DEBUG 22960 --- [http-nio-8081-exec-9] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item ORDER BY update_time DESC LIMIT ?
-10:52:32:535 DEBUG 22960 --- [http-nio-8081-exec-9] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 20(Long)
-10:52:32:546 DEBUG 22960 --- [http-nio-8081-exec-9] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 20
-11:56:14:929  WARN 22960 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m42s211ms108µs800ns).
-12:42:33:791  WARN 22960 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m48s751ms745µs100ns).
-13:19:31:452  INFO 22960 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-13:19:31:460  INFO 22960 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+16:31:10:711  INFO 23300 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.25 on sule with PID 23300 (C:\Users\31641\Desktop\资料\SpringCloud\SpringCloud微服务—资料\day03-01\documents\hmall\hm-service\target\classes started by 31641 in C:\Users\31641\Desktop\资料\SpringCloud\SpringCloud微服务—资料\day03-01\documents\hmall)
+16:31:10:720 DEBUG 23300 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:31:10:720  INFO 23300 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+16:31:11:381  INFO 23300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:31:11:383  INFO 23300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:31:11:412  INFO 23300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+16:31:11:833  INFO 23300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+16:31:11:840  INFO 23300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:31:11:840  INFO 23300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:31:11:941  INFO 23300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:31:11:941  INFO 23300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1188 ms
+16:31:13:267  INFO 23300 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:31:13:578  INFO 23300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+16:31:13:579  INFO 23300 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:31:13:581  INFO 23300 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:31:13:622  INFO 23300 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:31:13:747  INFO 23300 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 3.417 seconds (JVM running for 4.219)
+16:31:39:805  INFO 23300 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:31:39:806  INFO 23300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+16:31:39:806  INFO 23300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+16:31:39:936  INFO 23300 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+16:31:40:107  INFO 23300 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+16:31:40:111 DEBUG 23300 --- [http-nio-8080-exec-1] com.hmall.mapper.UserMapper.selectOne    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+16:31:40:124 DEBUG 23300 --- [http-nio-8080-exec-1] com.hmall.mapper.UserMapper.selectOne    : ==> Parameters: jack(String)
+16:31:40:142 DEBUG 23300 --- [http-nio-8080-exec-1] com.hmall.mapper.UserMapper.selectOne    : <==      Total: 1
+16:31:40:429 DEBUG 23300 --- [http-nio-8080-exec-2] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:31:40:429 DEBUG 23300 --- [http-nio-8080-exec-2] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:31:40:435 DEBUG 23300 --- [http-nio-8080-exec-2] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:31:56:022 DEBUG 23300 --- [http-nio-8080-exec-8] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:31:56:023 DEBUG 23300 --- [http-nio-8080-exec-8] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:31:56:025 DEBUG 23300 --- [http-nio-8080-exec-8] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:31:56:544 DEBUG 23300 --- [http-nio-8080-exec-3] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:31:56:544 DEBUG 23300 --- [http-nio-8080-exec-3] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:31:56:547 DEBUG 23300 --- [http-nio-8080-exec-3] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:31:56:892 DEBUG 23300 --- [http-nio-8080-exec-6] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:31:56:892 DEBUG 23300 --- [http-nio-8080-exec-6] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:31:56:895 DEBUG 23300 --- [http-nio-8080-exec-6] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:31:57:136 DEBUG 23300 --- [http-nio-8080-exec-9] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:31:57:137 DEBUG 23300 --- [http-nio-8080-exec-9] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:31:57:138 DEBUG 23300 --- [http-nio-8080-exec-9] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:31:59:116 DEBUG 23300 --- [http-nio-8080-exec-4] com.hmall.mapper.UserMapper.selectOne    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+16:31:59:117 DEBUG 23300 --- [http-nio-8080-exec-4] com.hmall.mapper.UserMapper.selectOne    : ==> Parameters: jack(String)
+16:31:59:119 DEBUG 23300 --- [http-nio-8080-exec-4] com.hmall.mapper.UserMapper.selectOne    : <==      Total: 1
+16:31:59:241 DEBUG 23300 --- [http-nio-8080-exec-5] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:31:59:242 DEBUG 23300 --- [http-nio-8080-exec-5] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:31:59:244 DEBUG 23300 --- [http-nio-8080-exec-5] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:32:06:748 ERROR 23300 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.hmall.common.exception.UnauthorizedException: 未登录] with root cause
+
+com.hmall.common.exception.UnauthorizedException: 未登录
+	at com.hmall.utils.JwtTool.parseToken(JwtTool.java:47) ~[classes/:na]
+	at com.hmall.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:21) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+16:32:37:925 DEBUG 23300 --- [http-nio-8080-exec-1] com.hmall.mapper.UserMapper.selectOne    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+16:32:37:925 DEBUG 23300 --- [http-nio-8080-exec-1] com.hmall.mapper.UserMapper.selectOne    : ==> Parameters: jack(String)
+16:32:37:926 DEBUG 23300 --- [http-nio-8080-exec-1] com.hmall.mapper.UserMapper.selectOne    : <==      Total: 1
+16:32:38:057 DEBUG 23300 --- [http-nio-8080-exec-2] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:32:38:057 DEBUG 23300 --- [http-nio-8080-exec-2] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:32:38:059 DEBUG 23300 --- [http-nio-8080-exec-2] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:32:43:830 DEBUG 23300 --- [http-nio-8080-exec-8] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:32:43:831 DEBUG 23300 --- [http-nio-8080-exec-8] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:32:43:832 DEBUG 23300 --- [http-nio-8080-exec-8] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:32:49:379 DEBUG 23300 --- [http-nio-8080-exec-3] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:32:49:379 DEBUG 23300 --- [http-nio-8080-exec-3] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:32:49:381 DEBUG 23300 --- [http-nio-8080-exec-3] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:32:49:612 DEBUG 23300 --- [http-nio-8080-exec-6] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:32:49:612 DEBUG 23300 --- [http-nio-8080-exec-6] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:32:49:614 DEBUG 23300 --- [http-nio-8080-exec-6] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:32:49:782 DEBUG 23300 --- [http-nio-8080-exec-9] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:32:49:782 DEBUG 23300 --- [http-nio-8080-exec-9] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:32:49:784 DEBUG 23300 --- [http-nio-8080-exec-9] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:32:49:950 DEBUG 23300 --- [http-nio-8080-exec-4] c.hmall.mapper.AddressMapper.selectList  : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+16:32:49:950 DEBUG 23300 --- [http-nio-8080-exec-4] c.hmall.mapper.AddressMapper.selectList  : ==> Parameters: 1(Long)
+16:32:49:951 DEBUG 23300 --- [http-nio-8080-exec-4] c.hmall.mapper.AddressMapper.selectList  : <==      Total: 4
+16:32:55:657  INFO 23300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+16:32:55:667  INFO 23300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

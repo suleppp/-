@@ -21,7 +21,7 @@ public class UserController {
     private final IUserService userService;
 
     @ApiOperation("用户登录接口")
-    @PostMapping("login")
+    @PostMapping("/login")
     public UserLoginVO login(@RequestBody @Validated LoginFormDTO loginFormDTO){
         return userService.login(loginFormDTO);
     }
